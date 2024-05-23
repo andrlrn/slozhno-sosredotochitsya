@@ -22,7 +22,8 @@
     --cover-image: url(../images/cover-image-dark.png);
 
     --main-font-family: 'IBM Plex mono';
-    --secondary-font-family: 'Arial', sans-serif;
+    /* альтернативные шрифты */
+    --secondary-font-family: monospace, 'Arial', sans-serif;
     --main-text-size: 1.125rem;
     --main-interlining: 1.463rem;
 }

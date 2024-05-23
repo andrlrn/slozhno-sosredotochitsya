@@ -1,6 +1,12 @@
 /* Mobile-first, dark default */
 
 .page {
+    background-image: var(--cover-image);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
     background-color: var(--page-color, #000028);
     font-family: var(--main-font-family), var(--secondary-font-family);
     font-size: var(--main-text-size);
@@ -9,12 +15,6 @@
 }
 
 .header {
-    background-image: var(--cover-image);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
     position: relative;
     display: grid;
     grid-template-rows: 1fr auto 1fr;
@@ -181,6 +181,7 @@
 
 :is(.header, .footer) {
     block-size: 100vh;
+    min-block-size: 668px;
 }
 
 .footer {
