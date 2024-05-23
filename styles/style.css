@@ -184,7 +184,7 @@
 }
 
 .footer {
-    margin-block-start: 1.8rem;
+    margin-block-start: 40px;
     position: relative;
     display: flex;
     flex-direction: column;
