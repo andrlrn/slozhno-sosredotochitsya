@@ -152,7 +152,6 @@
 }
 
 .section__text-paragraph {
-    background-color: var(--main-section-text-background);
     margin-block-start: 10px;
 }
 

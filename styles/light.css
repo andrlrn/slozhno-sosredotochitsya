@@ -38,8 +38,12 @@
 
         --cover-image: url(../images/cover-image-light.png);
     }
+
+    .theme_auto .header__sign {
+        display: none;
+    }
 }
 
-.page.theme_light .header__sign, .page.theme_auto .header__sign {
+.page.theme_light .header__sign {
     display: none;
 }
